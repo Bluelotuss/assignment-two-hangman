@@ -46,14 +46,16 @@ namespace assignment_two_hangman
             var hiddenPlayWord = HiddenRandomWord(getRandomWord);
             
             //var letter = AskUserForLetter();
-            var lives = 0;
+            var lives = 10;
         
             bool keepLooping = true;
             while(keepLooping)
             {   
-                lives++;
-                Console.WriteLine(lives);
+                
+                
                 var guess = AskUserForLetter();
+                lives--;
+                Console.WriteLine("Lives left: {0}", lives);
                 if(hiddenPlayWord.SequenceEqual(guess))
                 {
                     Console.WriteLine("You got it!");
