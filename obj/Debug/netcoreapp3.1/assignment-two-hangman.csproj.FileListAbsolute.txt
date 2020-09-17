@@ -1,0 +1,12 @@
+/Users/konrad/Documents/vs-projects/c-sharp/assignment-two-hangman/bin/Debug/netcoreapp3.1/assignment-two-hangman.deps.json
+/Users/konrad/Documents/vs-projects/c-sharp/assignment-two-hangman/bin/Debug/netcoreapp3.1/assignment-two-hangman.runtimeconfig.json
+/Users/konrad/Documents/vs-projects/c-sharp/assignment-two-hangman/bin/Debug/netcoreapp3.1/assignment-two-hangman.runtimeconfig.dev.json
+/Users/konrad/Documents/vs-projects/c-sharp/assignment-two-hangman/bin/Debug/netcoreapp3.1/assignment-two-hangman.dll
+/Users/konrad/Documents/vs-projects/c-sharp/assignment-two-hangman/bin/Debug/netcoreapp3.1/assignment-two-hangman.pdb
+/Users/konrad/Documents/vs-projects/c-sharp/assignment-two-hangman/obj/Debug/netcoreapp3.1/assignment-two-hangman.csprojAssemblyReference.cache
+/Users/konrad/Documents/vs-projects/c-sharp/assignment-two-hangman/obj/Debug/netcoreapp3.1/assignment-two-hangman.AssemblyInfoInputs.cache
+/Users/konrad/Documents/vs-projects/c-sharp/assignment-two-hangman/obj/Debug/netcoreapp3.1/assignment-two-hangman.AssemblyInfo.cs
+/Users/konrad/Documents/vs-projects/c-sharp/assignment-two-hangman/obj/Debug/netcoreapp3.1/assignment-two-hangman.csproj.CoreCompileInputs.cache
+/Users/konrad/Documents/vs-projects/c-sharp/assignment-two-hangman/obj/Debug/netcoreapp3.1/assignment-two-hangman.dll
+/Users/konrad/Documents/vs-projects/c-sharp/assignment-two-hangman/obj/Debug/netcoreapp3.1/assignment-two-hangman.pdb
+/Users/konrad/Documents/vs-projects/c-sharp/assignment-two-hangman/obj/Debug/netcoreapp3.1/assignment-two-hangman.genruntimeconfig.cache
