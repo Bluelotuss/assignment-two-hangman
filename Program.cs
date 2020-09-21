@@ -38,13 +38,11 @@ namespace assignment_two_hangman
                 return hiddenLetters;
         }
 
-        
-
         static void Main(string[] args)
         {
             Console.WriteLine("The Hangman Game!");
             var getRandomWord = RandomWord();
-            Console.WriteLine(getRandomWord);
+            //Console.WriteLine(getRandomWord);
             Console.WriteLine(HiddenRandomWord(getRandomWord));
             var hiddenPlayWord = HiddenRandomWord(getRandomWord);
             
@@ -57,10 +55,6 @@ namespace assignment_two_hangman
             var previousGuesses = " ";
             //String[] guessStringArray = new String[10];
             char[] delimiter1 = new char[] { ',', ' ' };
-            
-            
-
-            
            
             bool keepLooping = true;
             while(keepLooping)
@@ -70,7 +64,6 @@ namespace assignment_two_hangman
                         Console.WriteLine("You are out of lives.");
                         keepLooping = false;
                         break;
-                      
                     } 
 
                 bool keepLooping2 = true;
@@ -90,7 +83,6 @@ namespace assignment_two_hangman
                         {
                             if(array1[i] != newGuessToString)
                             {
-                                
                                 guess = newGuess;
                                 keepLooping2 = false;
                                 continue;
@@ -99,7 +91,6 @@ namespace assignment_two_hangman
                                 Console.WriteLine("You have already guessed this letter.");
                                 keepLooping2 = true;
                                 break;
-                                
                             }
                         }
                         builder.Append(", ");
@@ -115,8 +106,6 @@ namespace assignment_two_hangman
                                 guess = newGuess;
                                 keepLooping2 = false;
                                 continue;
-                                
-                                
                             } else
                             {
                                 Console.WriteLine("You have already guessed this word.");
@@ -124,13 +113,9 @@ namespace assignment_two_hangman
                                 break;
                             }
                         }
-
                         builder.Append(", ");
                         builder.Append(newGuess);
                         Console.WriteLine("Your guesses: {0}", builder);
-                    
-                        
-
                     } else
                     {
                         builder.Append(", ");
@@ -144,9 +129,6 @@ namespace assignment_two_hangman
                 lives--;
                 Console.WriteLine("Your lives: {0}", lives);
                 String guessToString = new string(guess);
-               
-                
-                
 
                 if(getRandomWord.SequenceEqual(guess))
                 {
@@ -163,7 +145,6 @@ namespace assignment_two_hangman
                     continue;
                 }
 
-                
                 if(guess.Length <= 1)
                 {
                 for(int i = 0; i < getRandomWord.Length; i++)
